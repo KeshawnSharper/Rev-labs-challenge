@@ -33,16 +33,29 @@ df = pd.DataFrame({
 fig = px.line(df, x="month", y="headcount",
               line_group="company", hover_name="company")
 app.layout = html.Div(children=[
-    html.H1(children='Hello Dash'),
+    html.Div(className="rectangle",children=[
+        html.Div(className="menu-item"),
+        html.Div(className="menu-item"),
+        html.Div(className="menu-item")
+    ]),
+    html.Div(id="nav",children=[
+        html.Div(className='drawer',children=[
+            html.Ul(children=[
+                html.Li("Genereal Purposes")
+            ])
+        ]
 
-    html.Div(children='''
-        Dash: A web application framework for Python.
-    '''),
+        )
+    ]),
 
-    dcc.Graph(
-        id='example-graph',
-        figure=fig
-    )
+    # html.Div(children='''
+    #     Dash: A web application framework for Python.
+    # '''),
+
+    # dcc.Graph(
+    #     id='example-graph',
+    #     figure=fig
+    # )
 ])  
 
 if __name__ == '__main__':
