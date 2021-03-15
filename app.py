@@ -41,7 +41,10 @@ app.layout = html.Div(children=[
     html.Div(id="nav",children=[
         html.Div(className='drawer',children=[
             html.Ul(children=[
-                html.Li("Genereal Purposes")
+                html.Li(children=[
+                    html.Div(className='active-tab'),
+                    "General Overview"
+                ])
             ])
         ]
 

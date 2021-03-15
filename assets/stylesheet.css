@@ -84,3 +84,22 @@ ul li:first-child {
 	
 	border: 2px solid #FFFFFF;
   }
+.active-tab{
+	position: absolute;
+width: 4px;
+height: 50px;
+left: 0px;
+top: 80px;
+
+background: #5BD992;
+
+}
+li{
+	display: inline-flex;
+	color: #5BD992;
+
+	
+}
+li p {
+
+}
