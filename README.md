@@ -1,6 +1,6 @@
 <img src="https://res.cloudinary.com/di449masi/image/upload/v1616174499/Screen_Shot_2021-03-19_at_1.20.33_PM_rc3asw.png"></img>
 
-# Rev Labs Cahllenge
+# Rev Labs Challenge
 
 # Description : 
 My first Plotly application. A graph application that allows you to see the headcount history of several companies.
