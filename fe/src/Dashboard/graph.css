@@ -1,0 +1,29 @@
+
+.graph h1{
+	position: absolute;
+	width: 100px;
+	height: 38px;
+	left: 270px;
+	top: 100px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 32px;
+	line-height: 37px;
+	/* identical to box height */
+	color: #2D426A;
+	
+}
+.plot{
+    position: absolute;
+width: 213.31px;
+height: 151.92px;
+left: 270px;
+top: 168px;
+
+}
+@media only screen and (max-width: 600px) {
+    .plot {
+      width:0px
+    }
+  }
