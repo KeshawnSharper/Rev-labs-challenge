@@ -132,7 +132,7 @@ console.log(res.data)
       <Plot
       data ={selected}
         
-        layout={ {width: 700, height: 400, title: 'A Fancy Plot'} }
+        layout={ {width: 700, height: 400, title: 'Headcount'} }
       />
       </div>
       </div>
